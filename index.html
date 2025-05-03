@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Car Project</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <div class="container">
+      <div class="sky">
+       <img src="background.jpg" alt="Sky">   
+      </div>
+      <div class="trees">
+       <img src="trees.png" alt="Trees">
+      </div>
+      <div class="track">
+       <img src="track.png" alt="Track">  
+      </div>
+      <div class="car" id="car">
+        <img src="car_body.png">
+        <img src="car_wheel_left.png" class="wheels wheel1" alt="Wheels">
+        <img src="car_wheel_right.png" class="wheels wheel2" alt="Wheels">
+      </div>
+      <audio id="tune" src="sound.mp3" loop></audio>
+    </div>
+    <div class="buttons">
+      <button  id="startBtn">Start</button>
+      <button  id="pauseBtn">Pause</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
